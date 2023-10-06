@@ -1,0 +1,5 @@
+girdi = input("Ussunu almak istediginiz ifadeyi giriniz: ")
+sayilar = girdi.split("**")
+ilk_sayi = int(sayilar[0])
+son_sayi = int(sayilar[1])
+print(f"Sonuc: {ilk_sayi ** son_sayi}")
